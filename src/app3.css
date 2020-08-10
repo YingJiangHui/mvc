@@ -1,0 +1,18 @@
+.app3>.box {
+    border: 1px solid black;
+    width: 10vh;
+    height: 10vh;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.app3>.box.action {
+    transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
+}

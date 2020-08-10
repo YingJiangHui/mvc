@@ -1,0 +1,23 @@
+.app4>.circle {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid black;
+    height: 30vh;
+    width: 30vh;
+}
+
+@keyframes checkColor {
+    0% {
+        background-color: red;
+    }
+    100% {
+        background-color: green;
+    }
+}
+
+.app4>.circle.action {
+    animation: checkColor .5s infinite alternate linear;
+}

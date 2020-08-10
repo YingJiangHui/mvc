@@ -1,0 +1,26 @@
+.app2>.menuBar>li {
+    display: flex;
+}
+
+.app2>.menuBar>li.selected {
+    color: white;
+    background-color: black;
+}
+
+.app2>.content>li {
+    display: none;
+}
+
+.app2>.content>li.action {
+    display: block;
+}
+
+.app2>.menuBar {
+    display: flex;
+}
+
+.app2>.menuBar>li {
+    cursor: pointer;
+    border: 1px solid red;
+    width: 50vw;
+}
